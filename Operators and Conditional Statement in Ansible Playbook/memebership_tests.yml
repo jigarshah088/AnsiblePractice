@@ -1,4 +1,4 @@
-#!/root/ansible/myansible/bin/ansible-playbook
+#!/usr/bin/ansible-playbook
 - name: This will show the Use of Comparision Operators
   hosts: localhost
   gather_facts: false
