@@ -1,4 +1,4 @@
-#!/root/ansible/myansible/bin/ansible-playbook
+#!/usr/bin/ansible-playbook
 - name: This is for Conditional Statement
   hosts: localhost
   gather_facts: false
