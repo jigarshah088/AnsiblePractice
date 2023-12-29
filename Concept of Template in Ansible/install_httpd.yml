@@ -1,7 +1,7 @@
-#!/root/ansible/myansible/bin/ansible-playbook
+#!/usr/bin/ansible-playbook
 - name: Installing WebServer
   hosts: all
-  remote_user: ec2-user
+  remote_user: ubuntu
   become: 'yes'
   become_user: root
 
