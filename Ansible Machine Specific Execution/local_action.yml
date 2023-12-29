@@ -1,7 +1,7 @@
 #!/usr/bin/ansible-playbook
 - name: Local Action in Ansible
   hosts: all
-  remote_user: ec2-user
+  remote_user: ubuntu
   become: 'yes'
   become_user: root
 
