@@ -14,12 +14,12 @@
 
   tasks:
   - name: Update All Packages on Machine
-    yum:
+    apt:
       name: "*"
       state: latest
 
   - name: Install Java on Machine
-    yum:
+    apt:
       name: "{{ java_version }}"
       state: present
   
