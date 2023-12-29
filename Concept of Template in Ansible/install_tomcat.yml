@@ -1,8 +1,8 @@
-#!/root/ansible/myansible/bin/ansible-playboo
+#!/usr/bin/ansible-playbook
 
 - name: Install and Configure Tomcat using Ansible
   hosts: all
-  remote_user: ec2-user
+  remote_user: ubuntu
   become: 'yes'
   become_user: root 
 
