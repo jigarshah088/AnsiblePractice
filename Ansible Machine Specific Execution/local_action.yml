@@ -1,4 +1,4 @@
-#!/root/ansible/myansible/bin/ansible-playbook
+#!/usr/bin/ansible-playbook
 - name: Local Action in Ansible
   hosts: all
   remote_user: ec2-user
